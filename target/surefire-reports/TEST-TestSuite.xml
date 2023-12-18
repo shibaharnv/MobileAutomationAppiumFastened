@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="52.638" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/shibahar/Desktop/work/FastNed/fastned/target/test-classes:/Users/shibahar/Desktop/work/FastNed/fastned/target/classes:/Users/shibahar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/shibahar/.m2/repository/io/appium/java-client/9.0.0/java-client-9.0.0.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.16.1/selenium-api-4.16.1.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.16.1/selenium-remote-driver-4.16.1.jar:/Users/shibahar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/shibahar/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/shibahar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/shibahar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/shibahar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/shibahar/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/shibahar/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/shibahar/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/shibahar/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.16.1/selenium-http-4.16.1.jar:/Users/shibahar/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.16.1/selenium-json-4.16.1.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.16.1/selenium-manager-4.16.1.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.16.1/selenium-os-4.16.1.jar:/Users/shibahar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.16.1/selenium-support-4.16.1.jar:/Users/shibahar/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/shibahar/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/shibahar/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/shibahar/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/shibahar/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/Users/shibahar/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/shibahar/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shibahar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shibahar/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shibahar/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/shibahar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/shibahar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/shibahar/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/shibahar/.m2/repository/javax/mail/javax.mail-api/1.6.2/javax.mail-api-1.6.2.jar:/Users/shibahar/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/shibahar/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/shibahar/.m2/repository/org/xhtmlrenderer/flying-saucer-core/9.1.22/flying-saucer-core-9.1.22.jar:/Users/shibahar/.m2/repository/org/xhtmlrenderer/flying-saucer-pdf/9.1.22/flying-saucer-pdf-9.1.22.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bcmail-jdk14/1.64/bcmail-jdk14-1.64.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bcpkix-jdk14/1.64/bcpkix-jdk14-1.64.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bctsp-jdk14/1.46/bctsp-jdk14-1.46.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bcprov-jdk14/1.64/bcprov-jdk14-1.64.jar:/Users/shibahar/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/Users/shibahar/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/Users/shibahar/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/shibahar/Desktop/work/FastNed/fastned/target/surefire/surefirebooter-20231218101715987_3.jar /Users/shibahar/Desktop/work/FastNed/fastned/target/surefire 2023-12-18T10-17-15_912-jvmRun1 surefire-20231218101715987_1tmp surefire_0-20231218101715987_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/shibahar/Desktop/work/FastNed/fastned/target/test-classes:/Users/shibahar/Desktop/work/FastNed/fastned/target/classes:/Users/shibahar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/shibahar/.m2/repository/io/appium/java-client/9.0.0/java-client-9.0.0.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.16.1/selenium-api-4.16.1.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.16.1/selenium-remote-driver-4.16.1.jar:/Users/shibahar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/shibahar/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/shibahar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/shibahar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/shibahar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/shibahar/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/shibahar/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/shibahar/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/shibahar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/shibahar/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.16.1/selenium-http-4.16.1.jar:/Users/shibahar/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.16.1/selenium-json-4.16.1.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.16.1/selenium-manager-4.16.1.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.16.1/selenium-os-4.16.1.jar:/Users/shibahar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shibahar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.16.1/selenium-support-4.16.1.jar:/Users/shibahar/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/shibahar/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/shibahar/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/shibahar/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/shibahar/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/Users/shibahar/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/shibahar/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shibahar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shibahar/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shibahar/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/shibahar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/shibahar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/shibahar/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/shibahar/.m2/repository/javax/mail/javax.mail-api/1.6.2/javax.mail-api-1.6.2.jar:/Users/shibahar/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/shibahar/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/shibahar/.m2/repository/org/xhtmlrenderer/flying-saucer-core/9.1.22/flying-saucer-core-9.1.22.jar:/Users/shibahar/.m2/repository/org/xhtmlrenderer/flying-saucer-pdf/9.1.22/flying-saucer-pdf-9.1.22.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bcmail-jdk14/1.64/bcmail-jdk14-1.64.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bcpkix-jdk14/1.64/bcpkix-jdk14-1.64.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bctsp-jdk14/1.46/bctsp-jdk14-1.46.jar:/Users/shibahar/.m2/repository/org/bouncycastle/bcprov-jdk14/1.64/bcprov-jdk14-1.64.jar:/Users/shibahar/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/Users/shibahar/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/Users/shibahar/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/shibahar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/shibahar/Desktop/work/FastNed/fastned"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/shibahar/Desktop/work/FastNed/fastned/target/surefire/surefirebooter-20231218101715987_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="user.name" value="shibahar"/>
+    <property name="RecipientList" value="shibaharn@gmail.com"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/shibahar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/vq/jwgfs26d5ss87_3rrl6kpryw0000gp/T/"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="/Users/shibahar/Desktop/work/FastNed/fastned"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/shibahar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="sampleFailedTestcase" classname="nl.fastned.FastNedPageObjectTest" time="18.426">
+    <failure message="Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text=&quot;Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU&quot;]}) (tried for 5 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text="Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU"]}) (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at nl.fastned.utils.AppiumUtils.waitForElementToAppear(AppiumUtils.java:74)
+	at nl.fastned.pageObjects.android.DashBoardPage.selectStationFromSuggestion(DashBoardPage.java:104)
+	at nl.fastned.FastNedPageObjectTest.sampleFailedTestcase(FastNedPageObjectTest.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text="Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU"]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$aJJwYx6I.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 35 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@441fbe89 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:261)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 42 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text="Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU"]})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 44 more
+]]></failure>
+    <system-out><![CDATA[127.0.0.1
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.2.3
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/shibahar/node_modules/appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver xcuitest...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/shibahar/node_modules/appium-xcuitest-driver
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on http://127.0.0.1:4723
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.34.2 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m   - xcuitest@5.12.1 (automationName 'XCUITest')
+&amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.2.3"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3 ms - 110&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: cedb28da-0acc-4233-bfa8-b15509e6c1fb
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","appium:automationName":"UIAutomator2","appium:deviceName":"ShibaharAVDEmulator","platformName":"ANDROID"}}}&amp#27;[39m
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","appium:automationName":"UIAutomator2","appium:deviceName":"ShibaharAVDEmulator","platformName":"ANDROID"}}]
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Event 'newSessionRequested' logged at 1702891042257 (10:17:22 GMT+0100 (Central European Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+&amp#27;[35m[Appium]&amp#27;[39m The 'uiautomator2' driver was installed and matched caps.
+&amp#27;[35m[Appium]&amp#27;[39m Will require it at /Users/shibahar/node_modules/appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/shibahar/node_modules/appium-uiautomator2-driver
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Appium v2.2.3 creating new AndroidUiautomator2Driver (v2.34.2) session
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Appium's BaseDriver version is 9.4.3
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.4.2
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m Creating session with W3C capabilities: {
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m   "alwaysMatch": {
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m     "platformName": "ANDROID",
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m     "appium:app": "/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk",
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m     "appium:automationName": "UIAutomator2",
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m     "appium:deviceName": "ShibaharAVDEmulator"
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m   },
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m   "firstMatch": [
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m     {}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m   ]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb]&amp#27;[0m }
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Session created with session id: 15154551-7935-4cf0-8d88-94b2f57b4c13
+&amp#27;[38;5;48m[BaseDriver]&amp#27;[0m Using local app '/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Checking whether app is actually present
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Found 1 'build-tools' folders under '/Users/shibahar/Library/Android/sdk' (newest first):
+&amp#27;[38;5;64m[ADB]&amp#27;[0m     /Users/shibahar/Library/Android/sdk/build-tools/34.0.0
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb' from '/Users/shibahar/Library/Android/sdk/platform-tools/adb'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Retrieving device list
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Trying to find connected Android devices
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Using device: emulator-5554
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb' from '/Users/shibahar/Library/Android/sdk/platform-tools/adb'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Setting device id to emulator-5554
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Current device property 'ro.build.version.sdk': 34
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting device platform version
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Current device property 'ro.build.version.release': 14
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Device API level: 34
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Relaxing hidden api policy
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Parsing package and activity from app manifest
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Package name: 'nl.fastned.my'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Main activity name: 'nl.fastned.my.MainActivity'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Parsed package and activity are: nl.fastned.my/nl.fastned.my.MainActivity
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Pushing settings apk to device...
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting package info for 'io.appium.settings'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.2.0' >= '5.2.0')
+&amp#27;[38;5;64m[ADB]&amp#27;[0m There is no need to install/upgrade '/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting IDs of all 'io.appium.settings' processes
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m io.appium.settings is already running. There is no need to reset its permissions.
+&amp#27;[38;5;96m[Logcat]&amp#27;[0m Starting logs capture with command: /Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Forwarding UiAutomator2 Server port 6790 to local port 8202
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Forwarding system: 8202 to device: 6790
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8202 tcp:6790'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Checking app cert for /Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.16.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Checking app cert for /Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'apksigner.jar' from '/Users/shibahar/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/shibahar/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/shibahar/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.16.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 
+&amp#27;[38;5;64m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m '/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting install status for io.appium.uiautomator2.server.test
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 'io.appium.uiautomator2.server.test' is installed
+&amp#27;[38;5;64m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 
+&amp#27;[38;5;64m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.16.apk'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m '/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.16.apk' is signed with the default certificate
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting package info for 'io.appium.uiautomator2.server'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.12.16' >= '5.12.16')
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.16.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Server packages are not going to be (re)installed
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waiting up to 30000ms for services to be available
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Checking app cert for /Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/shibahar/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: CN=NOW! Innovations, OU=IT, O=NOW! Innovations, L=Tallinn, ST=Unknown, C=EE
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: 47daef3c6e3f94ab42eba19fbe7f9f429457c8ed8037347a701eca1dd1a538df
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: d773d2484adc4a16f36767c369e4eb2992a023d0
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: 46450c3a85423bedfb8af3902dec5ccc
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 
+&amp#27;[38;5;64m[ADB]&amp#27;[0m '/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk' is signed with a non-default certificate
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting package info for 'nl.fastned.my'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package nl.fastned.my'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m The version name of the installed 'nl.fastned.my' is greater or equal to the application version name ('6.10.5' >= '6.10.5')
+&amp#27;[38;5;64m[ADB]&amp#27;[0m There is no need to install/upgrade '/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Performing fast reset on 'nl.fastned.my'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting install status for nl.fastned.my
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm path nl.fastned.my'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 'nl.fastned.my' is installed
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop nl.fastned.my'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear nl.fastned.my'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Performed fast reset on the installed 'nl.fastned.my' application (stop and clear)
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Performing shallow cleanup of automation leftovers
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m No obsolete sessions have been detected (socket hang up)
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Starting UIAutomator2 server 5.12.16
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Using UIAutomator2 server from '/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.16.apk' and test from '/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waiting up to 30000ms for UiAutomator2 to be online...
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m socket hang up
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m socket hang up
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m socket hang up
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m socket hang up
+&amp#27;[38;5;112m[Instrumentation]&amp#27;[0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m socket hang up
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m The initialization of the instrumentation process took 5135ms
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/session' to command name 'createSession'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8202/session] with body: {"capabilities":{"firstMatch":[{"platformName":"ANDROID","app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","automationName":"UIAutomator2","deviceName":"emulator-5554","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","automationName":"UIAutomator2","deviceName":"ShibaharAVDEmulator"},"deviceUDID":"emulator-5554","appPackage":"nl.fastned.my"}],"alwaysMatch":{}}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"capabilities":{"firstMatch":[{"platformName":"ANDROID","app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","automationName":"UIAutomator2","deviceName":"emulator-5554","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","automationName":"UIAutomator2","deviceName":"ShibaharAVDEmulator"},"deviceUDID":"emulator-5554","appPackage":"nl.fastned.my"}],"alwaysMatch":{}},"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd"}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Determined the downstream protocol as 'W3C'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/appium/device/pixel_ratio] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/appium/device/system_bars] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/window/current/size' to command name 'getWindowSize'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/window/current/size] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/appium/device/info] with no body
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":3.5}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"height":2796,"width":1440}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"statusBar":98}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"androidId":"7368a83d3d39db45","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":10,"subtypeName":"HSPA","type":0,"typeName":"MOBILE"},{"capabilitie...
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Screen already unlocked, doing nothing
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Starting 'nl.fastned.my/nl.fastned.my.MainActivity and waiting for 'nl.fastned.my/nl.fastned.my.MainActivity'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n nl.fastned.my/nl.fastned.my.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Waiting up to 20000ms for activity matching pkg: 'nl.fastned.my' and activity: 'nl.fastned.my.MainActivity' to be focused
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Possible activities, to be checked: 'nl.fastned.my.MainActivity', 'nl.fastned.my.nl.fastned.my.MainActivity'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting focused package and activity
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Running '/Users/shibahar/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window displays'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Found package: 'nl.fastned.my' and fully qualified activity name : 'nl.fastned.my.MainActivity'
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m New AndroidUiautomator2Driver session created successfully, session 15154551-7935-4cf0-8d88-94b2f57b4c13 added to master session list
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Event 'newSessionStarted' logged at 1702891059189 (10:17:39 GMT+0100 (Central European Standard Time))
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Cached the protocol value 'W3C' for the new session 15154551-7935-4cf0-8d88-94b2f57b4c13
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"ANDROID","app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","automationName":"UIAutomator2","deviceName":"emulator-5554","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"/Users/shibahar/Desktop/work/FastNed/fastned/src/test/resources/Fastned_6.10.5_Apkpure.apk","automationName":"UIAutomator2","deviceName":"ShibaharAVDEmulator"},"deviceUDID":"emulator-5554","appPackage":"nl.fastned.my","pixelRatio":"3.5","statBarHeight":98,"viewportRect":{"left":0,"top":98,"width":1440,"height":2698},"deviceApiLevel":34,"platformVersion":"14","deviceManufacturer":"Google","deviceModel":"sdk_gphone64_arm64","deviceScreenSize":"1440x2880","deviceScreenDensity":560}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m16970 ms - 984&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/timeouts&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"implicit":10000}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m W3C timeout argument: {"implicit":10000}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Set implicit wait to 10000ms
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.timeouts() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/15154551-7935-4cf0-8d88-94b2f57b4c13/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m34 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+com.aventstack.extentreports.ExtentTest@58ba5b30
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/15154551-7935-4cf0-8d88-94b2f57b4c13/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m14 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@resource-id=\"button.text\"]"}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"button.text\"]","15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waiting up to 10000 ms for condition
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"button.text\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"ELEMENT":"00000000-0000-00c8-ffff-ffff0000001a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00c8-ffff-ffff0000001a"}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00c8-ffff-ffff0000001a","ELEMENT":"00000000-0000-00c8-ffff-ffff0000001a"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/15154551-7935-4cf0-8d88-94b2f57b4c13/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m871 ms - 137&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/element/00000000-0000-00c8-ffff-ffff0000001a/displayed&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-00c8-ffff-ffff0000001a","15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element/00000000-0000-00c8-ffff-ffff0000001a/attribute/displayed' to command name 'getAttribute'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /element/00000000-0000-00c8-ffff-ffff0000001a/attribute/displayed] to [GET http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element/00000000-0000-00c8-ffff-ffff0000001a/attribute/displayed] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":"true"}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.elementDisplayed() result: true
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/15154551-7935-4cf0-8d88-94b2f57b4c13/element/00000000-0000-00c8-ffff-ffff0000001a/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m40 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/15154551-7935-4cf0-8d88-94b2f57b4c13/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@resource-id=\"button.text\"]"}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"button.text\"]","15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waiting up to 10000 ms for condition
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"button.text\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"ELEMENT":"00000000-0000-00c8-ffff-ffff0000001a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00c8-ffff-ffff0000001a"}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00c8-ffff-ffff0000001a","ELEMENT":"00000000-0000-00c8-ffff-ffff0000001a"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/15154551-7935-4cf0-8d88-94b2f57b4c13/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m84 ms - 137&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/element/00000000-0000-00c8-ffff-ffff0000001a/click&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"id":"00000000-0000-00c8-ffff-ffff0000001a"}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.click() with args: ["00000000-0000-00c8-ffff-ffff0000001a","15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element/00000000-0000-00c8-ffff-ffff0000001a/click' to command name 'click'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element/00000000-0000-00c8-ffff-ffff0000001a/click] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element/00000000-0000-00c8-ffff-ffff0000001a/click] with body: {"element":"00000000-0000-00c8-ffff-ffff0000001a"}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":null}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.click() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/15154551-7935-4cf0-8d88-94b2f57b4c13/element/00000000-0000-00c8-ffff-ffff0000001a/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m172 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/15154551-7935-4cf0-8d88-94b2f57b4c13/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]"}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waiting up to 10000 ms for condition
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 176 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 827 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 1550 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 2680 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 3392 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 4100 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 4790 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 5463 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 6159 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 6868 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 7568 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 8271 ms so far
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/5925a240-7229-4691-8814-9e79a62959a6/timeouts&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at asyncHandler (/Users/shibahar/node_modules/@appium/base-driver/lib/protocol/protocol.js:315:15)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at /Users/shibahar/node_modules/@appium/base-driver/lib/protocol/protocol.js:518:15
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Layer.handle [as handle_request] (/Users/shibahar/node_modules/express/lib/router/layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at next (/Users/shibahar/node_modules/express/lib/router/route.js:144:13)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Route.dispatch (/Users/shibahar/node_modules/express/lib/router/route.js:114:3)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Layer.handle [as handle_request] (/Users/shibahar/node_modules/express/lib/router/layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at /Users/shibahar/node_modules/express/lib/router/index.js:284:15
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at param (/Users/shibahar/node_modules/express/lib/router/index.js:365:14)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at param (/Users/shibahar/node_modules/express/lib/router/index.js:376:14)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Function.process_params (/Users/shibahar/node_modules/express/lib/router/index.js:421:3)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at next (/Users/shibahar/node_modules/express/lib/router/index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at logger (/Users/shibahar/node_modules/morgan/index.js:144:5)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Layer.handle [as handle_request] (/Users/shibahar/node_modules/express/lib/router/layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at trim_prefix (/Users/shibahar/node_modules/express/lib/router/index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at /Users/shibahar/node_modules/express/lib/router/index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Function.process_params (/Users/shibahar/node_modules/express/lib/router/index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at next (/Users/shibahar/node_modules/express/lib/router/index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at jsonParser (/Users/shibahar/node_modules/body-parser/lib/types/json.js:113:7)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Layer.handle [as handle_request] (/Users/shibahar/node_modules/express/lib/router/layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at trim_prefix (/Users/shibahar/node_modules/express/lib/router/index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at /Users/shibahar/node_modules/express/lib/router/index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Function.process_params (/Users/shibahar/node_modules/express/lib/router/index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at next (/Users/shibahar/node_modules/express/lib/router/index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Layer.handle [as handle_request] (/Users/shibahar/node_modules/express/lib/router/layer.js:91:12)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at trim_prefix (/Users/shibahar/node_modules/express/lib/router/index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at /Users/shibahar/node_modules/express/lib/router/index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at Function.process_params (/Users/shibahar/node_modules/express/lib/router/index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@f78e]&amp#27;[0m     at next (/Users/shibahar/node_modules/express/lib/router/index.js:280:10)
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/5925a240-7229-4691-8814-9e79a62959a6/timeouts &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m66 ms - 2628&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 9021 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Waited for 9856 ms so far
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text=\"Fastned Kreuz Hilden - Zum Jägerhof, Hilden DEU\"]","context":"","multiple":false}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 404: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+&amp#27;[38;5;128m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m     at AndroidUiautomator2Driver.findElOrEls (/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:87:11)
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m     at AndroidUiautomator2Driver.findElement (/Users/shibahar/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/15154551-7935-4cf0-8d88-94b2f57b4c13/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m10283 ms - 847&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/15154551-7935-4cf0-8d88-94b2f57b4c13/screenshot&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Calling AppiumDriver.getScreenshot() with args: ["15154551-7935-4cf0-8d88-94b2f57b4c13"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Matched '/screenshot' to command name 'getScreenshot'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8202/session/ceafb048-04e6-4978-947c-ee0bdb36e5dd/screenshot] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Got response with status 200: {"sessionId":"ceafb048-04e6-4978-947c-ee0bdb36e5dd","value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAtACAYAAADu24QXAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dNz1ff/712ya0WrtsmTZsiXvC44XwAuYHQMxBCc5LDmcUCjBBXzOL+ekOTc97R/c36Ft0vvLTU97mxbSJCdpnEITaImxAbPaGNvgBdsYWbJsy5Yla9+32ef+QWai0YykkazvjKR5Ps7h4Pnou7xnPDL4NW+9P6ZAIBAQAAAAAAAAAACTzJzoAgAAAAAAAAAAMxMBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMAQBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMAQBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMAQBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMIQ10QUAiC4QCMjr9crj8ai9vV0nTpzQmTNnVFdXp6ysLK1YsUKrV6/W4sWLZbVaZbVaZbFYEl02AAAAAAAAEGIKBAKBRBcB4EuBQEA+n09er1fd3d2qrKzUiRMndOnSJbnd7ojjLRaL8vLytHLlSq1cuVILFiwIhdFmc3L+gEMgEJDH4wkF+EP/iDObzbJarTKZTLLZbAmsEgAAAAAw2bq6utTe3q6+vj719/drcHBQLpdLdrtdaWlpSktLU0ZGhvLy8pSdnZ3ocqec9vZ25eXlJbSGc+fOqbq6Oubj77//fgOrwWQhgAYSLBAIyO/3y+v1qre3VzU1Nfrss8904cIF9fX1xXwdm82m4uJirV69WqtWrVJhYaFsNpssFotMJpOBzyDxvF6v3G63nE6n+vv71dDQIK/Xq9bWVrlcLkmS...
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@b2bb (15154551)]&amp#27;[0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABaAAAAtACAYAAADu24QXAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dNz1ff/712ya0WrtsmTZsiXvC44XwAuYHQMxBCc5LDmcUCjBBXzOL+ekOTc97R/c36Ft0vvLTU97mxbSJCdpnEITaImxAbPaGNvgBdsYWbJsy5Yla9+32ef+QWai0YykkazvjKR5Ps7h4Pnou7xnPDL4NW+9P6ZAIBAQAAAAAAAAAACTzJzoAgAAAAAAAAAAMxMBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMAQBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMAQBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMAQBNAAAAAAAAADAEATQAAAAAAAAAABDEEADAAAAAAAAAAxBAA0AAAAAAAAAMIQ10QUAiC4QCMjr9crj8ai9vV0nTpzQmTNnVFdXp6ysLK1YsUKrV6/W4sWLZbVaZbVaZbFYEl02AAAAAAAAEGIKBAKBRBcB4EuBQEA+n09er1fd3d2qrKzUiRMndOnSJbnd7ojjLRaL8vLytHLlSq1cuVILFiwIhdFmc3L+gEMgEJDH4wkF+EP/iDObzbJarTKZTLLZbAmsEgAAAAAw2bq6utTe3q6+vj719/drcHBQLpdLdrtdaWlpSktLU0ZGhvLy8pSdnZ3ocqec9vZ25eXlJbSGc+fOqbq6Oubj77//fgOrwWQhgAYSLBAIyO/3y+v1qre3VzU1Nfrss8904cIF9fX1xXwdm82m4uJirV69WqtWrVJhYaFsNpssFotMJpOBzyDxvF6v3G63nE6n+vv71dDQIK/Xq9bWVrlcLkmSyWRSenq68vPzZbPZVFpaKofDIbvdHnqdAAAAAADTQ09PjyorK1VZWam6ujq1...
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/15154551-7935-4cf0-8d88-94b2f57b4c13/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m941 ms - 1803036&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="nl.fastned.TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="MyTest(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="nl.fastned.FastNedPageObjectTest">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+          <include name="sampleFailedTestcase"/>
+        </methods>
+      </class> <!-- nl.fastned.FastNedPageObjectTest -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->
